@@ -1,0 +1,4 @@
+Project: Loan Operations Portal
+Version: v2
+
+Standalone Streamlit application.
