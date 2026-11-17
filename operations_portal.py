@@ -94,16 +94,16 @@ def _records_table(records: list[dict]) -> str:
 
 def render_operations_portal() -> None:
     initialize_operations_state()
-    st.markdown(
-        '<div class="page-topbar"><span>Operations&nbsp;&nbsp; / &nbsp;&nbsp;<strong>Application register</strong></span><span class="ops-environment">● &nbsp;MULESOFT DEMO</span></div>',
-        unsafe_allow_html=True,
-    )
+    # st.markdown(
+    #     '<div class="page-topbar"><span>Operations&nbsp;&nbsp; / &nbsp;&nbsp;<strong>Application register</strong></span><span class="ops-environment">● &nbsp;MULESOFT DEMO</span></div>',
+    #     unsafe_allow_html=True,
+    # )
 
     heading_col, button_col = st.columns([5, 1.25], vertical_alignment="bottom")
     with heading_col:
         st.markdown(
-            '<div class="ops-eyebrow">LOAN SERVICING <span style="display:inline-block;width:19px;height:1px;background:#a8bcae;vertical-align:middle"></span> BACK-OFFICE</div>'
-            '<h1 class="ops-heading">Loan application register</h1>'
+            # '<div class="ops-eyebrow">LOAN SERVICING <span style="display:inline-block;width:19px;height:1px;background:#a8bcae;vertical-align:middle"></span> BACK-OFFICE</div>'
+            '<h1 class="ops-heading">Loan Application Register</h1>'
             '<p class="ops-description">A consolidated list of applications returned by the MuleSoft API.</p>',
             unsafe_allow_html=True,
         )
